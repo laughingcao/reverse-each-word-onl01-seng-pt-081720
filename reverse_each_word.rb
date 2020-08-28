@@ -1,3 +1,3 @@
-def test(sentence)
-  sentence.split.collect {|word| word.reverse}.join(" ")
+def reverse_each_word(sentence)
+  sentence.collect {|word| word.reverse}.join(" ")
 end
